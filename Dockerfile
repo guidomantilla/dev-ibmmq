@@ -1,4 +1,4 @@
-FROM store/ibmcorp/mqadvanced-server-dev:9.1.2.0
+FROM marcoantonioni/mqadvanced-server-dev:9.1.2.0
 ENV LICENSE='accept' \
     MQ_QMGR_NAME='QM1' \
     MQ_APP_PASSWORD='r00t123!+'
